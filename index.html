@@ -23,9 +23,11 @@
 
 </head>
 <body>
-  <header>
+  <div class="container">
+    <div class="row">
+  <header role="banner" class="col-2">
     <h1>JS Documentation</h1>
-    <nav>
+    <nav role="navigation">
       <ul>
         <li>Introduction</li>
         <li>What you should already know</li>
@@ -44,6 +46,8 @@
       </ul>
     </nav>
   </header>
+
+  <main role="main" class="col-10">
     <section>
       <h2>Introduction</h2>
       <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
@@ -234,6 +238,7 @@ while (n < 3) {
       <p>return number * number;</p>
       <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
     </section>
+  </main>
     <footer>
       <section>
         <h2>Reference</h2>
@@ -242,6 +247,8 @@ while (n < 3) {
         </ul>
       </section>
     <footer>
+    </div>
+      </div>
 </body>
 
 </html>
