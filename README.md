@@ -1,2 +1,2 @@
 # Technical-Documentation-Page
-My fifth project from the freecodecamp.
+My fifth project from freeCodeCamp.
