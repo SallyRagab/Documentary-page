@@ -22,6 +22,14 @@ body {
   padding: 0;
 }
 
+.pl-6 {
+  padding-left: 2.5rem!important;
+}
+
+.pl-7 {
+  padding-left: 5rem!important;
+}
+
 header {
   border-right: #777 solid 5px;
 }
@@ -34,9 +42,9 @@ h1, nav ul li {
   border-bottom: #777 solid 1px;
 }
 
-ul {
+/*ul {
   padding-left: 40px;
-}
+}*/
 
 p {
   margin-bottom: 1rem;
@@ -72,4 +80,8 @@ p,
 li {
   font-size: .9rem;
   font-weight: normal;
+}
+
+section {
+  margin-bottom: 2rem;
 }
