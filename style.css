@@ -97,3 +97,6 @@ section {
   margin-top: 1rem;
   margin-top: 1rem;
 }
+.noList {
+  list-style: none;
+}
