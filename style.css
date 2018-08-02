@@ -82,7 +82,7 @@ main {
 }
 
 nav {
-  height: 89%;
+  height: 88%;
   overflow-y: auto;
 }
 
@@ -121,7 +121,6 @@ p, li {
   padding: 1rem 2rem;
   margin-left: 2rem;
   margin-top: 1rem;
-  margin-top: 1rem;
 }
 
 .noList {
@@ -152,5 +151,11 @@ p, li {
 
   nav {
     height: 218px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .codeSnippet {
+    margin-left: 0;
   }
 }
